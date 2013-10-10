@@ -1,0 +1,19 @@
+<html>    
+        <script language="javascript">    
+		var i=0;
+                function wave(msg) {     
+                   document.getElementById("txt_input").value = msg
+                }
+		function getCount(){
+		  ++i;
+		 return i;
+		}     
+        </script>    
+        <body>    
+          <h1>Web part</h1>
+	    <button onClick="window.demo.clickOnAndroid(getCount())">Click me!</button>	<br>
+		<a href="#" onClick="window.demo.clickOnAndroid(getCount())">Click me!</a>	<br>
+	    <input type="text" id="txt_input" />
+        </body>   
+ 
+</html>    

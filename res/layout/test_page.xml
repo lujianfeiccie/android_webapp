@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+         />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Native part" 
+        android:textSize="20sp"
+         android:layout_marginTop="20dip"
+        />
+    <Button
+        android:id="@+id/bt_test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me!"
+        ></Button>
+     <EditText
+        android:id="@+id/edit_test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text=""
+        ></EditText>
+</LinearLayout>
